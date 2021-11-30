@@ -538,11 +538,7 @@ body{
 
 
 
-    @mixin grid($val){
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax($val,1fr));
-        grap:1.5rem;
-    }
+   
 
 
 

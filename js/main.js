@@ -15,7 +15,7 @@ document.querySelectorAll('.about .video-container .controls .control-btn').forE
 
 $(function () {
     $('#myDiv').floatingWhatsApp({
-        phone: '+504 8851-3318',
+        phone: '+504 9907 8813',
         
         showPopup: true,
         position: 'right',
