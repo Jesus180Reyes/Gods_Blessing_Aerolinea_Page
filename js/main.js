@@ -19,8 +19,8 @@ $(function () {
         
         showPopup: true,
         position: 'right',
-        popupMessage: 'Hola, En que te puedo Ayudar',
-      message: 'Hola queria cotizar un viaje!',
+        popupMessage: 'Hola!, ¿En que te puedo ayudar?',
+      message: 'Hola quiero cotizar un viaje!',
       headerTilte: 'Bienvenido',
       autoOpenTimeout: 7000,
       size: '60px',

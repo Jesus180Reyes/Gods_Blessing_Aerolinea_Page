@@ -478,6 +478,9 @@ body{
          padding-right: 4rem;
          color: #aaa;
      }
+     .footer .box-containers .box p i{
+            padding-right: 1rem;
+     }
      form .email{
          width: 100%;
          border-radius: 5rem;
