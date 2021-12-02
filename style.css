@@ -594,6 +594,9 @@ body{
                 display: block;
 
             }
+            .footer .box-containers .box p i{
+                padding-right: .5rem;
+         }
         }
         @media(max-width:450px){
             html{
@@ -624,5 +627,8 @@ body{
 
                  
             }
+            .footer .box-containers .box p i{
+                padding-right: 2rem;
+         }
             
         }
