@@ -44,26 +44,26 @@
     </section>
 
     <section class="contact2" id="contact">
-        <form action="">
+        <form action="php/contact-form.php" method="post">
             <h3>Cotiza un Vuelo</h3>
             <div class="inputBox">
-                <input type="text" placeholder="Ingresa tu Nombre completo" required>
+                <input type="text" name="name" placeholder="Ingresa tu Nombre completo" required>
             </div>
             <div class="inputBox">
-                <input type="tel" placeholder="Ingresa numero de telefono" required>
+                <input type="tel" name="number" placeholder="Ingresa numero de telefono" required>
             </div>
             <div class="inputBox">
-                <input type="email" placeholder="Ingresa Correo electronico" required>
+                <input type="email" name="email" placeholder="Ingresa Correo electronico" required>
             </div>
             <div class="inputBox">
-                <input type="number" placeholder="Cuantas Personas?" required>
+                <input type="number" name="persons" placeholder="Cuantas Personas?" required>
             </div>
             <div class="inputBox">
                 <h4>Ingresa Fecha</h4>
-                <input type="date" required>
+                <input type="date" name="date" required>
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-            <input type="submit" value="Enviar Cotizacion" class="btn3">
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+            <input type="submit" name="submit" value="Enviar Cotizacion" class="btn3">
 
 
 

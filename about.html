@@ -34,7 +34,7 @@
     <section class="banner3" data-aos="zoom-out">
         <div class="content">
             <h3>Nosotros</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, cumque voluptate! Laudantium!</p>
+            <p>Descubre acerca de quiénes somos y descubre nuestra Misión y Visión de la agencia </p>
             <!-- <a href="#" class="btn2">Blog</a> -->
         </div>
 
@@ -81,19 +81,19 @@
                     <div class="box">
                         <h3>Cotizar un vuelo</h3>
                         <p>Cotiza un vuelo completando el formulario siguiente:</p>
-                        <form action="">
+                        <form action="php/contact-form.php" method="post">
 
-                            <input type="text" placeholder="Ingresa nombre completo:" class="email" required>
-                            <input type="tel" placeholder="Ingresa  numero de telefono:" class="email" required>
-                            <input type="email" placeholder="Ingresa tu Correo" class="email" required>
-                            <input type="number" placeholder="Cuantas Personas?" class="email">
+                            <input type="text" name="name" placeholder="Ingresa nombre completo:" class="email" required>
+                            <input type="tel" name="number" placeholder="Ingresa  numero de telefono:" class="email" required>
+                            <input type="email" name="email" placeholder="Ingresa tu Correo" class="email" required>
+                            <input type="number" name="persons" placeholder="Cuantas Personas?" class="email">
 
 
 
                             <p>Ingresar Fecha</p>
                             <input type="date" placeholder="Ingresa tu Correo" class="email" required>
 
-                            <input type="submit" placeholder="" , value="Enviar" class="btna">
+                            <input type="submit" name="submit" placeholder="" , value="Enviar" class="btna">
 
                         </form>
                     </div>
