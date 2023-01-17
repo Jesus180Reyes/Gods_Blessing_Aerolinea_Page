@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 * {
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    outline: none;
+    border: none;
     box-sizing: border-box;
 }
 
@@ -15,6 +19,193 @@
 .loader img {
     height: 80vh;
 }
+
+.home-container  {
+    background-image: linear-gradient(rgba(50, 49, 49, 0.6), rgba(27, 27, 27, 0.75)), url("./assets/background.jpg");    
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    justify-content: center;
+}
+
+.navbar {
+    padding: 10px;
+    /* margin-top: 10px; */
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar a {
+    cursor: pointer;
+    color: #fff;    
+    margin: 25px;
+}
+
+.navbar a:hover {
+    color: yellow;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.main-text {
+   margin: 20px;
+   padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: red; */
+    height: 40vh;
+}
+.main-text h1 {
+    text-align: justify;
+    font-size: 3.2rem;
+    color: #fff;
+    
+}
+.main-text span {
+    color: yellow;
+
+}
+
+.targets-container{
+    margin: 20px;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width:20vw;
+}
+
+.form-container {
+    border-radius: 15px;
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #fff;
+}
+.input-controller{
+    margin: 20px;
+}
+.input-controller p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+}
+.input-controller input{
+    text-align: center;
+    border-radius: 15px;
+    width: 15vw;
+    height: 5vh;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    /* font-size: 1.5rem; */
+
+}
+
+.btn-form {
+    font-size: 1rem;
+    margin-left: 20px;
+    cursor: pointer;
+    width: 10vw;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #29d9d5;
+    color: #fff;
+}
+
+ @media (max-width:480px)  { 
+    /* smartphones, Android phones, landscape iPhone */ 
+    
+    .navbar {
+        display: none;
+    }
+    .main-text h1 {
+        text-align: center;
+        font-size: 1.5rem;
+        color: #fff;
+    }
+
+    .input-controller input {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        /* font-size: 1.5rem; */
+    }
+    .form-container { 
+        display: block;
+    }
+
+    .main-text {
+    /* display: flex; */
+    padding: 20px;
+    /* background-color: red; */
+    height: 40vh;
+    }
+
+    .btn-form {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    
+ }
+ .menu-bar {
+    display: none;
+ }
+
+ @media (max-width: 920px) {
+    .navbar {
+        display: none;
+    }
+    .form-container {
+        /* display: flex; */
+        display: block;
+        align-items: center;
+        gap: 20px;
+    }
+    .input-controller input {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        /* font-size: 1.5rem; */
+    }
+    .btn-form {
+        width: 100%;
+        margin-left: 0;
+    }
+    .main-text h1 {
+        text-align: center;
+        font-size: 1.8rem;
+        color: #fff;
+    }
+
+    .menu-bar {
+        cursor: pointer;
+        margin: 10px;
+        padding: 10px;
+        display: block;
+        color: #fff;
+    }
+
+    
+ } 
+
+
+
+
 
 
 
