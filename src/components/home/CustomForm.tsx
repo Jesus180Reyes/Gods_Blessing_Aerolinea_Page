@@ -3,7 +3,7 @@ export const CustomForm = () => {
   return (
     <>
      <form >
-    <div className="form-container">
+    <div className="form-container animate__animated animate__fadeIn" >
       <div className="input-controller" >
         <p>Origen:</p>
         <input type="text" placeholder="Ingrese Origen" />
