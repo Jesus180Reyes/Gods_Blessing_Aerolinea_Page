@@ -123,6 +123,12 @@
     background-color: #29d9d5;
     color: #fff;
 }
+.btn-form:hover {
+    color: #111;
+    background: #fff;
+    outline-style: solid;
+    outline-color: #29d9d5;
+}
 
 .row-content {
     margin-top: 40px;
@@ -205,6 +211,59 @@
     color: #fff;
 }
 
+.blog-container {
+    margin: 20px;
+    text-align: center;
+}
+.blog-container h1 {
+    margin-top: 50px;
+    font-size: 3rem;
+}
+
+
+.row-blogs {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.card-blog-content {
+    border-radius: 20px;
+    height: 70vh;
+    width: 35vw;
+    /* background-color: red; */
+    padding: 10px;
+    margin-bottom: 10vh;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    outline-width: 2px;
+  outline-style: dotted;
+  outline-color: rgb(192, 192, 192);
+  outline-offset: 0.5rem;
+}
+.card-blog-content p {
+    /* background-color: yellow; */
+    font-size: 1.2rem;
+    text-align: start;
+    text-overflow: ellipsis;
+    color: #a8a8a8;
+}
+.card-blog-content img {
+    border-radius: 20px;
+    width: 100%;
+    height: 40vh;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.card-blog-content h3 {
+    font-size: 1.5rem;
+    text-align: start;
+    margin-bottom: 10px;
+}
 
 
 
@@ -291,6 +350,15 @@
      margin-bottom: 10px;
      font-size: 1.2rem;
      
+    }
+
+    .row-blogs {
+        display: block;
+        width: 100%;
+    }
+
+    .card-blog-content {
+        width: 100%;
     }
     
     
