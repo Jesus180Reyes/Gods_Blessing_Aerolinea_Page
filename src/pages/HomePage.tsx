@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { ArticleContent,WhyFly,CustomForm,RowArticleFeat, BlogContainer } from "../components/home";
+import { ArticleContent,WhyFly,CustomForm,RowArticleFeat, BlogContainer, PromotionComponent } from "../components/home";
 import { MenuComponent,Navbar,LoadingPage } from "../shared";
 import { notify } from "../helpers";
 import 'animate.css';
@@ -34,8 +34,8 @@ export const HomePage = () => {
     </div>
     <RowArticleFeat ArticleComponent={ArticleContent} imgSrc="https://firebasestorage.googleapis.com/v0/b/fir-f16bc.appspot.com/o/background1.jpg?alt=media&token=8caa321e-8d47-4992-bc04-48535664f380" />
     <RowArticleFeat ArticleComponent={WhyFly} isRowReverse={true} imgSrc="https://firebasestorage.googleapis.com/v0/b/fir-f16bc.appspot.com/o/background2.jpg?alt=media&token=2f2b593c-a84f-4efa-a117-0836d320f4d4" />
-    {/* Blog */}
     <BlogContainer/>
+    <PromotionComponent/>
     <ToastContainer/>
     </>
   )

@@ -7,6 +7,11 @@
     border: none;
     box-sizing: border-box;
 }
+body {
+
+    background-color: #f1f1f1;
+
+}
 
 .loader {
     display: flex;
@@ -229,18 +234,16 @@
 }
 
 .card-blog-content {
+    background-color: #fff;
     border-radius: 20px;
     height: 70vh;
-    width: 35vw;
+    width: 30vw;
     /* background-color: red; */
     padding: 10px;
     margin-bottom: 10vh;
     overflow: hidden;
     text-overflow: ellipsis;
     outline-width: 2px;
-  outline-style: dotted;
-  outline-color: rgb(192, 192, 192);
-  outline-offset: 0.5rem;
 }
 .card-blog-content p {
     /* background-color: yellow; */
@@ -264,6 +267,97 @@
     text-align: start;
     margin-bottom: 10px;
 }
+.promotions-container {
+    text-align: center;
+    margin-top: 110px;
+}
+.promotions-container h1 {
+    margin-bottom: 35px;
+    font-size: 2.7rem;
+}
+
+.cards {
+    display: flex;
+}
+
+.card-promotion {
+    width: 40%;
+    position: relative;
+    border-radius: 20px;
+    margin: 20px;
+    background-color: #fff;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.card-promotion  img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 60%;
+    transition: 0.3s ease-in-out;
+    overflow: hidden;
+}
+.card-promotion:hover img {
+    transform: scale(1.1);
+   
+}
+.card-promotion h2 {
+    /* background-color: red; */
+    width: 22vw;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+.card-promotion h2:hover {
+    color: yellow;
+    cursor: pointer;
+}
+.card-promotion button {
+    border-radius: 20px;
+    height: 10%;
+    width: 30%;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #292929;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.card-promotion h3 {
+    font-size: 1.8rem;
+}
+.card-promotion p {
+    margin-top: 10px;
+}
+
+.card-promotion .gradient {
+    position: absolute;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 60%;
+    top: 0;
+    width: 100%;
+    opacity: 0.2;
+    background-color: #292929;
+}
+
+.promotion-button {
+    border-radius: 20px;
+    height: 5vh;
+    width: 15%;
+    background-color: #292929;
+    color: #fff;
+    cursor: pointer;
+   margin: 40px;
+}
+
 
 
 
@@ -361,11 +455,41 @@
         width: 100%;
     }
     
-    
+    .cards {
+        display: block;
+        padding: 10px;
+    }
+    .card-promotion {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        margin-top: 40px;
+    }
+
+    .card-promotion button {
+        height: 5vh;
+        margin-bottom: 10px;
+    }
+
+    .card-promotion h2 {
+        /* background-color: red; */
+        width: 80%;
+    }
+
+    .promotion-button {
+        height: 7vh;
+        width: 40vw;
+    }
  }
+
+
+
+
  .menu-bar {
     display: none;
  }
+
+ 
 
  @media (max-width: 920px) {
     .navbar {
