@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { ArticleContent,WhyFly,CustomForm,RowArticleFeat, BlogContainer, PromotionComponent } from "../components/home";
-import { MenuComponent,Navbar,LoadingPage } from "../shared";
+import { ArticleContent,WhyFly,CustomForm,RowArticleFeat, BlogContainer, PromotionComponent, FeedbackComponent } from "../components/home";
+import { MenuComponent,Navbar,LoadingPage, FloatingActionButton } from "../shared";
 import { notify } from "../helpers";
 import 'animate.css';
 import 'react-toastify/dist/ReactToastify.css';
@@ -36,6 +36,8 @@ export const HomePage = () => {
     <RowArticleFeat ArticleComponent={WhyFly} isRowReverse={true} imgSrc="https://firebasestorage.googleapis.com/v0/b/fir-f16bc.appspot.com/o/background2.jpg?alt=media&token=2f2b593c-a84f-4efa-a117-0836d320f4d4" />
     <BlogContainer/>
     <PromotionComponent/>
+    <FeedbackComponent/>
+    <FloatingActionButton/>
     <ToastContainer/>
     </>
   )
