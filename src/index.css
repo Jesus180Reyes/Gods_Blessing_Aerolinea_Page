@@ -27,6 +27,23 @@ body {
     bottom: 0;
     right: 0;
 }
+.floating-button-scrollUp-container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 2vw;
+    height: 6vh;
+    position: fixed;
+    cursor: pointer;
+    bottom: 100px;
+    right: 25px;
+    background-color: red;
+}
+.floating-button-scrollUp-container i {
+    font-size:1.5rem;
+    color: white;
+}
 .floating-button i{
     width: 80px;
     box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -38,7 +55,7 @@ body {
     background-color: white;
     text-align: center;
     font-size: 3rem;
-    color: green;
+    color: #128C7E;
 }
 
 .loader {
@@ -73,6 +90,7 @@ body {
 }
 .navbar a {
     cursor: pointer;
+    text-decoration: none;
     color: #fff;    
     margin: 25px;
 }
@@ -433,7 +451,76 @@ body {
     font-weight: bold;
 }
 
+.footer-container {
+    margin-top: 30px;
+    background-color: #24303e;
+    height: 300px;
+}
+.row-footer {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    gap: 30px;
+}
 
+
+.col-footer h3 {
+    text-align: start;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #f8fbfa;
+}
+
+.col-footer p {
+    text-align: start;
+    color: #fff;
+    margin: 10px;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.col-logo-sm {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.icons {
+    cursor: pointer;
+    margin-top: 20px;
+    gap: 15px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    
+    /* background-color: green; */
+    /* margin-left: 20vw; */
+    /* width: 10vw; */
+}
+.footer-container .logo {
+    /* margin-left: 20vw; */
+    width: 10vw;
+    justify-content: center;
+}
+
+.created-by {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #24303e;
+    color: #fff;
+    gap: 10px;
+}
+.created-by a {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
 
 
 
@@ -573,6 +660,30 @@ body {
         /* background-color: red; */
         font-size: 1.2rem;
 
+    }
+
+    .row-footer {
+        height: 100%;
+        display: block;
+    }
+    .footer-container {
+        height: 100%;
+    }
+    .footer-container .logo {
+        width: 40vw;
+        justify-content: center;
+    }
+    .col-footer h3 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        padding: 5px;
+    }
+    .col-footer p {
+        font-size: 1.2rem;
+        margin-top: 20px;
+    }
+    .created-by p {
+        text-align: center;
     }
  }
 

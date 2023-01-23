@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { ArticleContent,WhyFly,CustomForm,RowArticleFeat, BlogContainer, PromotionComponent, FeedbackComponent } from "../components/home";
-import { MenuComponent,Navbar,LoadingPage, FloatingActionButton } from "../shared";
+import { MenuComponent,Navbar,LoadingPage, FloatingActionButton, Footer } from "../shared";
 import { notify } from "../helpers";
 import 'animate.css';
 import 'react-toastify/dist/ReactToastify.css';
@@ -38,6 +38,7 @@ export const HomePage = () => {
     <PromotionComponent/>
     <FeedbackComponent/>
     <FloatingActionButton/>
+    <Footer/>
     <ToastContainer/>
     </>
   )
