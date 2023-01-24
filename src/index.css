@@ -522,16 +522,106 @@ body {
     text-decoration: none;
 }
 
+/* Modal */
+.ReactModalPortal > div{
+    opacity: 0;
+}
+
+.ReactModalPortal .ReactModal__Overlay {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition: opacity .2s ease-in-out;
+    z-index: 999;
+}
+
+.modal-fondo {
+    background-color: rgba(0, 0, 0, 0.3);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+}
+
+.ReactModalPortal .ReactModal__Overlay--after-open {
+    opacity: 1;
+}
+
+.ReactModalPortal .ReactModal__Overlay--before-close {
+    opacity: 0;
+}
+
+.modal {
+    background: white;
+    border-radius: 5px;
+    color: rgb(51, 51, 51);
+    display: block;
+    /* max-height: 620px; */
+    /* max-width: 500px; */
+    outline: none;
+    padding: 10px;
+}
+.modal-container {
+    text-align: center;
+}
+.box-sucursal {
+    display: flex;
+    cursor: pointer;
+    margin: 15px;
+    padding: 20px;
+    justify-content: space-between;
+    outline-style: solid;
+    border-radius: 10px;
+    outline-color: #f1f1f1;
+    opacity: 1;
+}
+.box-sucursal:hover {
+    background-color: #24303e;
+    outline-color: #fff;
+    outline-style: solid;
+    /* opacity: 1; */
+    color: #fff;
+}
+.box-sucursal i{
+   font-size: 1rem;
+}
+
+.btn-close {
+    display: flex;
+    cursor: pointer;
+    justify-content: end;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.btn-close i {
+    
+    margin-top: -10px;
+    font-size: 2rem;
+}
 
 
 
+.sucursal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
 
-
-
-
-
-
-
+.box-sucursals-container {
+    cursor: pointer;
+    background-color: white;
+    width: 400px;
+    margin-top: 30px;
+    font-size: 1.5rem;
+}
+.box-sucursals-container i{
+    font-size: 1.5rem;
+    text-align: center;
+}
 
 
 

@@ -1,3 +1,5 @@
+export { BoxSucursal } from './BoxSucursal';
+export { CustomModal } from './CustomModal';
 export { ColFooter } from './ColFooter';
 export { Footer } from './Footer';
 export { FloatingActionButton } from './FloatingActionButton';
