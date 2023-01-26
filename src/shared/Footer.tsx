@@ -10,7 +10,7 @@ export const Footer = () => {
           <ColFooter title={'Productos'} subtittles={["Paquetes", "Vuelos", "Asesorias"]}/>
           <ColFooter title={'Quienes Somos'} subtittles={["Sobre Nosotros","Cotizar vuelos","Cotizar Paquetes"]}/>
             <div className="col-logo-sm">
-            <img src="logo.png" className="logo" alt="" />
+            <img src="https://firebasestorage.googleapis.com/v0/b/fir-f16bc.appspot.com/o/logo.png?alt=media&token=730bc369-d0fd-4bb0-9eb0-88fed8b6c195" className="logo" alt="" />
             <div className="icons">
             <i onClick={()=>window.location.href = "https://wa.me/+50489676760?text=Hola%20Quiero%20una%20cotizacion"} className="fa-brands fa-whatsapp"></i>
             <i onClick={()=>window.location.href = "https://www.tiktok.com/@gods_blessing10"} className="fa-brands fa-tiktok"></i>

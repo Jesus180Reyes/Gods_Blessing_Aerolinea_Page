@@ -7,6 +7,7 @@ export const SucursalesPage = () => {
     <>
     <div className="sucursal-container">
       <div className="box-sucursals-container">
+        <h3>Elige una Sucursal segun tu ubicacion:</h3>
       <BoxSucursal sucursales={sucursalesLocation} isModal={false}/>
       </div>
     </div>

@@ -1,7 +1,8 @@
 import { createBrowserRouter, Navigate } from "react-router-dom";
 import { App } from '../App';
-import { CholutecaComponent,DanliComponent,TegucigalpaComponent,SPSComponent } from "../components/agents";
 import { BlogPage,AgentsPage,HomePage,OurUsPage,SucursalesPage,CotizarPage,ThingsToTravelPage } from "../pages";
+import { LocationSucursalPage } from '../pages/LocationSucursalPage';
+import { sucursalesLocation } from '../data/sucursals';
 
 export const router = createBrowserRouter([
   {
@@ -41,10 +42,10 @@ export const router = createBrowserRouter([
         path: "/sucursales",
         element: <App/>,
         children: [
-            {path: "choluteca",element: <CholutecaComponent/>},
-            {path: "danli",element: <DanliComponent/>},
-            {path: "tegucigalpa",element: <TegucigalpaComponent/>},
-            {path: "san-pedro-sula",element: <SPSComponent/>},
+            {path: "choluteca",element: <LocationSucursalPage sucursal={sucursalesLocation[0]}/>},
+            {path: "danli",element: <LocationSucursalPage sucursal={sucursalesLocation[1]}/>},
+            {path: "tegucigalpa",element: <LocationSucursalPage sucursal={sucursalesLocation[2]}/>},
+            {path: "san-pedro-sula",element: <LocationSucursalPage sucursal={sucursalesLocation[3]}/>},
             { path: '*', element: <Navigate to="/sucursales" /> },
             {element: <SucursalesPage/>, index:true},
         ]

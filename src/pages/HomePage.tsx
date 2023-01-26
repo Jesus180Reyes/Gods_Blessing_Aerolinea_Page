@@ -37,7 +37,7 @@ export const HomePage = () => {
     <BlogContainer/>
     <PromotionComponent/>
     <FeedbackComponent/>
-    <FloatingActionButton/>
+    <FloatingActionButton phoneNumber={99078813}/>
     <Footer/>
     <CustomModal/>
     <ToastContainer/>
