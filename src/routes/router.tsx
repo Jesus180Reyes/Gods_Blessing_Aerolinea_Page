@@ -46,6 +46,7 @@ export const router = createBrowserRouter([
             {path: "danli",element: <LocationSucursalPage sucursal={sucursalesLocation[1]}/>},
             {path: "tegucigalpa",element: <LocationSucursalPage sucursal={sucursalesLocation[2]}/>},
             {path: "san-pedro-sula",element: <LocationSucursalPage sucursal={sucursalesLocation[3]}/>},
+            {path: "comayagua",element: <LocationSucursalPage sucursal={sucursalesLocation[4]}/>},
             { path: '*', element: <Navigate to="/sucursales" /> },
             {element: <SucursalesPage/>, index:true},
         ]

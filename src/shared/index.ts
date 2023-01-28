@@ -1,3 +1,4 @@
+export { Agents } from './Agents';
 export { BoxSucursal } from './BoxSucursal';
 export { CustomModal } from './CustomModal';
 export { ColFooter } from './ColFooter';

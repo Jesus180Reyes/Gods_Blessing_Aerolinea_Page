@@ -629,6 +629,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 50vh;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -646,6 +647,127 @@ body {
     color: #fff;
 }
 
+.travel-agents {
+    text-align: center;
+    /* background-color: red; */
+    margin-bottom: 50px;
+}
+
+.travel-agents h3 {
+    font-size: 2rem;
+    text-align: center;
+   
+}
+.travel-agents p {
+    font-size: 1rem;
+    text-align: center;
+}
+.cards-agents {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: green; */
+}
+.card-agent {
+    border-radius: 20PX;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+    width: 20vw;
+    background-color: #fff;
+    overflow: hidden;
+} 
+
+.card-agent img {
+    /* background-color: green; */
+    margin: 20px;
+    height: 32vh;
+    width: 15vw;
+    background-attachment:fixed;
+    object-fit: cover;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+
+.card-agent p {
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1.5rem;
+} 
+
+.card-agent button {
+    margin-top: 10px;
+    font-size: 1rem;
+    margin-left: 20px;
+    cursor: pointer;
+    width: 10vw;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #24303e;
+    color: #fff;
+
+} 
+
+.card-agent button:hover {
+    background-color: #fff;
+    outline-color: #24303e;
+    outline-style: solid;
+    /* opacity: 1; */
+    color: #24303e;
+}
+
+.location-map {
+    margin-bottom: 30px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.location-map .map {
+    margin-top: 20px;
+    height: 70vh;
+}
+.location-map .custom-map {
+    border-radius: 20px;
+    height: 100%;
+    width: 60%;
+}
+
+.social-media-container {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.social-media-container h3 {
+    
+    font-size: 2rem;
+}
+.social-media-container p {
+    font-size: 1.2rem;
+}
+
+.social-media-container .icons {
+    gap: 30px;
+    /* background-color: green; */
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.all-agents-container {
+    text-align: center;
+    font-size: 2rem;
+}
 
 
 
