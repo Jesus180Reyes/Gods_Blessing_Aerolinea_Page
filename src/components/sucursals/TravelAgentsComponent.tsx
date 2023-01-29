@@ -22,8 +22,8 @@ export const TravelAgentsComponent:FC<Props> = ({sucursal,isShowTitle = true}) =
       <div className="cards-agents">
       {
 
-        sucursal.employees.map(employe => {
-          return <Agents employe={employe} sucursal={sucursal}/>
+        sucursal.employees.map((employe,i) => {
+          return <Agents employe={employe} sucursal={sucursal} key={i}/>
         })
       }
         </div>

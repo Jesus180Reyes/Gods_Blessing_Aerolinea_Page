@@ -1,6 +1,6 @@
 import { createBrowserRouter, Navigate } from "react-router-dom";
 import { App } from '../App';
-import { BlogPage,AgentsPage,HomePage,OurUsPage,SucursalesPage,CotizarPage,ThingsToTravelPage } from "../pages";
+import { BlogPage,AgentsPage,HomePage,OurUsPage,SucursalesPage,CotizarPage } from "../pages";
 import { LocationSucursalPage } from '../pages/LocationSucursalPage';
 import { sucursalesLocation } from '../data/sucursals';
 
@@ -25,10 +25,6 @@ export const router = createBrowserRouter([
               path: "aboutUs",
               element: <OurUsPage/>
           },
-          {
-              path: "cosa-para-viajar",
-              element: <ThingsToTravelPage/>
-            },
             {
                 path: "cotizar",
                 element: <CotizarPage/>

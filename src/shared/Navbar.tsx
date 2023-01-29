@@ -8,7 +8,7 @@ export const Navbar = () => {
         <a href="/">Home</a>
         <a href="/aboutUs">Sobre Nosotros</a>
         <a href="/agents">Agentes de viajes</a>
-        <a href="/cosa-para-viajar">Cosa que necesitas para viajar</a>
+        {/* <a href="/cosa-para-viajar">Cosa que necesitas para viajar</a> */}
         <a href="/blog">Blog</a>
         <a href="/sucursales">Sucursales</a>
         <a href="/cotizar">Cotizar Vuelo</a>

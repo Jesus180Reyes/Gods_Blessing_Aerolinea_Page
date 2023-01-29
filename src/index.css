@@ -770,6 +770,60 @@ body {
 }
 
 
+.valores-container {
+    gap: 30px;
+    text-align: center;
+    /* background-color: green; */
+}
+.valores-container h3 {
+    font-size: 2.5rem;
+}
+.cards-valores {
+    padding: 30px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.valores-card {
+    padding: 10px;
+    display: flex;
+    border-radius: 15px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    width: 30vw;
+    margin-left: 20px;
+    height: 30vh;
+}
+
+.valores-card h4 {
+    font-size: 1.5rem;
+
+}
+
+.valores-card p {
+    height: 50%;
+    font-size: .8rem;
+
+}
+.valores-card i {
+    font-size: 2rem;
+}
+.mision-container {
+    width: 40vw;
+}
+.mision-container h1 {
+    font-size: 2.4rem;
+}
+.mision-container p {
+    font-size: 1rem;
+    color: #111;
+
+    font-weight: 300;
+    text-align: center;
+    justify-items: center;
+}
 
 .box-sucursals-container h3 {
     font-size: 2rem;
@@ -893,6 +947,7 @@ body {
     }
     .feedback-container .card img {
         width: 50vw;
+        height: auto;
         
     }
 
@@ -925,6 +980,72 @@ body {
     .created-by p {
         text-align: center;
     }
+
+    .location-map .custom-map {
+        padding: 10px;
+        /* margin-right: 20px; */
+        /* margin-left: 20px; */
+        border-radius: 20px;
+        height: 100%;
+        width: 100%;
+    }
+    .cards-agents {
+        display: block;
+    }
+    .card-agent {
+        border-radius: 20PX;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 65vh;
+        margin: auto;
+        width: 90vw;
+        padding: 20px;
+        background-color: #fff;
+        overflow: hidden;
+        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
+    } 
+    .card-agent img {
+        /* background-color: green; */
+        width: auto;
+        height: auto;
+    }
+
+    .card-agent button {
+        margin-top: 10px;
+        font-size: 1rem;
+        margin-left: 20px;
+        cursor: pointer;
+        width: 50vw;
+        border-radius: 20px;
+        padding: 10px;
+        background-color: #24303e;
+        color: #fff;
+    }
+    .cards-valores {
+        /* padding: 20px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+    .valores-card {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #fff;
+        margin-bottom: 20px;
+        width: auto;
+        height: 40vh;
+    }
+    .mision-container {
+        width: auto;
+        margin-bottom: 10px;
+    }
+   
  }
 
 
