@@ -1010,7 +1010,7 @@ body {
     .card-agent img {
         /* background-color: green; */
         width: auto;
-        height: auto;
+        /* height: auto; */
     }
 
     .card-agent button {
