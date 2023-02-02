@@ -666,6 +666,7 @@ body {
     margin-top: 30px;
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
     grid-template-columns: repeat(3,1fr);
     justify-content: space-around;
     align-items: center;
