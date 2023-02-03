@@ -23,7 +23,7 @@ export const TravelAgentsComponent:FC<Props> = ({sucursal,isShowTitle = true}) =
       {
 
         sucursal.employees.map((employe,i) => {
-          return <Agents employe={employe} sucursal={sucursal} key={i}/>
+          return <Agents employe={employe} sucursal={sucursal} key={i} index={i}/>
         })
       }
         </div>
