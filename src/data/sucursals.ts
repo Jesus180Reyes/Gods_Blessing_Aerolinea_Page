@@ -5,7 +5,7 @@ export const sucursalesLocation:Sucursales[] = [
         title: "Choluteca",
         onClick: "choluteca",
         description: "Nisi voluptate esse anim veniam adipisicing amet et officia do eu.",
-        phone_number:"88513318",
+        phone_number:"96786859",
         locationUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3882.6026488428174!2d-87.17989858536744!3d13.312743790632696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f703ce471cc7225%3A0x4f642346d3a54ad6!2sUnimall!5e0!3m2!1ses-419!2shn!4v1674674473277!5m2!1ses-419!2shn",
         employees: <Employees[]>[
 
@@ -20,7 +20,7 @@ export const sucursalesLocation:Sucursales[] = [
                 name: "Scarleth",
                 lastName: "Sanchez",
                 imgUrl: "https://firebasestorage.googleapis.com/v0/b/fir-f16bc.appspot.com/o/sanchez.png?alt=media&token=538e9605-0d31-4c51-a0b3-db6350a44021",
-                phoneNumber: "96786859"
+                phoneNumber: "87348911"
 
             },
             {
@@ -66,7 +66,7 @@ export const sucursalesLocation:Sucursales[] = [
         onClick: "danli",
         description: "Nisi voluptate esse anim veniam adipisicing amet et officia do eu.",
         locationUrl: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15484.190227781983!2d-86.5702656!3d14.0151945!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6e691bf24b94c3%3A0xc40abe2b8c630507!2sGod%60s%20Blessing%20Danli!5e0!3m2!1ses-419!2shn!4v1674684608116!5m2!1ses-419!2shn",
-        phone_number:"88513318",
+        phone_number:"93706154",
         employees:<Employees[]> [
             {
                 name: "Amalia",
@@ -211,27 +211,27 @@ export const sucursalesLocation:Sucursales[] = [
         onClick: "comayagua",
         description: "Nisi voluptate esse anim veniam adipisicing amet et officia do eu.",
         locationUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3863.5621425654654!2d-87.64134118535362!3d14.452379189896947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f65858cd98a29e5%3A0x913b590644b51db3!2sMall%20Premier!5e0!3m2!1ses-419!2shn!4v1675227921064!5m2!1ses-419!2shn",
-        phone_number:"88513318",
+        phone_number:"98572856",
         employees: <Employees[]>[
             {
                 name: "Nicolle",
                 lastName: "Zepeda",
                 imgUrl: "https://firebasestorage.googleapis.com/v0/b/fir-f16bc.appspot.com/o/nicolle.png?alt=media&token=8a2ce88f-1d2d-4c72-908a-b462ea092fdd",
-                phoneNumber: "88513318"
+                phoneNumber: "98572856"
 
             },
             {
                 name: "Maryori",
                 lastName: "Lopez",
                 imgUrl: "https://firebasestorage.googleapis.com/v0/b/fir-f16bc.appspot.com/o/maryori.png?alt=media&token=907d7d38-723a-4229-9dad-ab5c91fcabd9",
-                phoneNumber: "88513318"
+                phoneNumber: "98545494"
 
             },
             {
                 name: "Greicy",
                 lastName: "Gomez",
                 imgUrl: "https://firebasestorage.googleapis.com/v0/b/fir-f16bc.appspot.com/o/greicy.png?alt=media&token=94cda6bf-4b7e-4c09-ab92-4eb3ff6d0e66",
-                phoneNumber: "88513318"
+                phoneNumber: "98621285"
 
             },
         ],
