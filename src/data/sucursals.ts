@@ -180,23 +180,51 @@ export const sucursalesLocation:Sucursales[] = [
         title: "San Pedro Sula",
         onClick: "san-pedro-sula",
         description: "Nisi voluptate esse anim veniam adipisicing amet et officia do eu.",
-        locationUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3882.6026488428174!2d-87.17989858536744!3d13.312743790632696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f703d61de63d83f%3A0xf917d05848bc4f8d!2sGod&#39;s%20Blessing%20Choluteca!5e0!3m2!1ses-419!2shn!4v1674668608020!5m2!1ses-419!2shn",
-        phone_number:"88513318",
+        locationUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3869.533434289921!2d-87.23589438535794!3d14.104697390119828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6f9812f8939def%3A0x68410041f1b81b15!2sMall%20Premier!5e0!3m2!1ses-419!2shn!4v1675487152234!5m2!1ses-419!2shn",
+        phone_number:"99504514",
         employees: <Employees[]>[
             {
-                name: "Luis de Jesus",
-                lastName: "Reyes Nolasco",
-                imgUrl: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fopen.spotify.com%2Fartist%2F60d24wfXkVzDSfLS6hyCjZ&psig=AOvVaw23-n8wX8PE4H93IcWzv_2F&ust=1674755511038000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCJCbj8uk4_wCFQAAAAAdAAAAABAE",
-                phoneNumber: "88513318"
+                name: "Katherine",
+                lastName: "Paredes",
+                imgUrl: "https://firebasestorage.googleapis.com/v0/b/fir-f16bc.appspot.com/o/user.png?alt=media&token=18953b03-3c62-4e5f-bcc9-8553cd8e624c",
+                phoneNumber: "99504514"
 
             },
             {
-                name: "Luis de Jesus",
-                lastName: "Reyes Nolasco",
-                imgUrl: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fopen.spotify.com%2Fartist%2F60d24wfXkVzDSfLS6hyCjZ&psig=AOvVaw23-n8wX8PE4H93IcWzv_2F&ust=1674755511038000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCJCbj8uk4_wCFQAAAAAdAAAAABAE",
-                phoneNumber: "88513318"
+                name: "Lindsy",
+                lastName: "Ortega",
+                imgUrl: "https://firebasestorage.googleapis.com/v0/b/fir-f16bc.appspot.com/o/user.png?alt=media&token=18953b03-3c62-4e5f-bcc9-8553cd8e624c",
+                phoneNumber: "93234499"
 
-            }
+            },
+            {
+                name: "Ruth",
+                lastName: "Sifontes",
+                imgUrl: "https://firebasestorage.googleapis.com/v0/b/fir-f16bc.appspot.com/o/user.png?alt=media&token=18953b03-3c62-4e5f-bcc9-8553cd8e624c",
+                phoneNumber: "98548762"
+
+            },
+            {
+                name: "Ruth",
+                lastName: "Hernández",
+                imgUrl: "https://firebasestorage.googleapis.com/v0/b/fir-f16bc.appspot.com/o/user.png?alt=media&token=18953b03-3c62-4e5f-bcc9-8553cd8e624c",
+                phoneNumber: "94393630"
+
+            },
+            {
+                name: "Byron",
+                lastName: "Garcia",
+                imgUrl: "https://firebasestorage.googleapis.com/v0/b/fir-f16bc.appspot.com/o/user.png?alt=media&token=18953b03-3c62-4e5f-bcc9-8553cd8e624c",
+                phoneNumber: "31575231"
+
+            },
+            {
+                name: "Génesis",
+                lastName: "Alvarado",
+                imgUrl: "https://firebasestorage.googleapis.com/v0/b/fir-f16bc.appspot.com/o/user.png?alt=media&token=18953b03-3c62-4e5f-bcc9-8553cd8e624c",
+                phoneNumber: "88100611"
+
+            },
         ],
 
          links:<LinksSM> {
