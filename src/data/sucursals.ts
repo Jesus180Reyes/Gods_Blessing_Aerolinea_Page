@@ -53,9 +53,8 @@ export const sucursalesLocation:Sucursales[] = [
            
         ],
         links:<LinksSM> {
-
-            facebookUrl: "https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100083352271785%26mibextid%3DLQQJ4d&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId",
-            instagramUrl: "",
+            facebookUrl: "https://www.facebook.com/people/Gods-Blessing-Choluteca/100083352271785/",
+            instagramUrl: "https://www.instagram.com/godsblessingcholuteca/",
             tiktokUrl: "https://www.tiktok.com/@gods_blessing10?_t=8YptyhKNMSz&_r=1"
 
         },
@@ -105,7 +104,7 @@ export const sucursalesLocation:Sucursales[] = [
             
         ],
          links:<LinksSM> {
-            facebookUrl: "https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100083211076838%26mibextid%3DLQQJ4d%20&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId",
+            facebookUrl:"https://www.facebook.com/people/Gods-Blessing-Danl%C3%AD/100083211076838/",
             instagramUrl: "https://instagram.com/godsblessingdanli?igshid=MWI4MTIyMDE",
             tiktokUrl: "https://www.tiktok.com/@gods_blessing10?_t=8YptyhKNMSz&_r=1"
 
@@ -170,8 +169,8 @@ export const sucursalesLocation:Sucursales[] = [
             },
         ],
          links:<LinksSM> {
-            facebookUrl: "https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100083322819873%26mibextid%3DLQQJ4d&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId",
-            instagramUrl: "https://instagram.com/godsblessingcholuteca?igshid=MWI4MTIyMDE",
+            facebookUrl: "https://www.facebook.com/people/Gods-Blessing-Tegucigalpa/100083322819873/",
+            instagramUrl: "https://www.instagram.com/godsblessingtegucigalpa/",
             tiktokUrl: "https://www.tiktok.com/@gods_blessing10?_t=8YptyhKNMSz&_r=1"
 
         },
@@ -180,7 +179,7 @@ export const sucursalesLocation:Sucursales[] = [
         title: "San Pedro Sula",
         onClick: "san-pedro-sula",
         description: "Nisi voluptate esse anim veniam adipisicing amet et officia do eu.",
-        locationUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3869.533434289921!2d-87.23589438535794!3d14.104697390119828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6f9812f8939def%3A0x68410041f1b81b15!2sMall%20Premier!5e0!3m2!1ses-419!2shn!4v1675487152234!5m2!1ses-419!2shn",
+        locationUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3844.647079993468!2d-88.00752778533993!3d15.503404189232624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6644b1e334cb9b%3A0x21de8aef6ed11fad!2sMegaMall%20San%20Pedro%20Sula!5e0!3m2!1ses-419!2shn!4v1675719149339!5m2!1ses-419!2shn",
         phone_number:"99504514",
         employees: <Employees[]>[
             {
@@ -198,15 +197,15 @@ export const sucursalesLocation:Sucursales[] = [
 
             },
             {
-                name: "Ruth",
-                lastName: "Sifontes",
+                name: "Agente",
+                lastName: "1",
                 imgUrl: "https://firebasestorage.googleapis.com/v0/b/fir-f16bc.appspot.com/o/user.png?alt=media&token=18953b03-3c62-4e5f-bcc9-8553cd8e624c",
                 phoneNumber: "98548762"
 
             },
             {
-                name: "Ruth",
-                lastName: "Hernández",
+                name: "Agente",
+                lastName: "2",
                 imgUrl: "https://firebasestorage.googleapis.com/v0/b/fir-f16bc.appspot.com/o/user.png?alt=media&token=18953b03-3c62-4e5f-bcc9-8553cd8e624c",
                 phoneNumber: "94393630"
 
@@ -228,7 +227,7 @@ export const sucursalesLocation:Sucursales[] = [
         ],
 
          links:<LinksSM> {
-            facebookUrl: "https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100088902146769%26mibextid%3DLQQJ4d&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId",
+            facebookUrl: "https://www.facebook.com/people/Gods-Blessing-San-Pedro-Sula/100088902146769/",
             instagramUrl: "https://instagram.com/godsblessingsanpedrosula?igshid=MWI4MTIyMDE",
             tiktokUrl: "https://www.tiktok.com/@gods_blessing10?_t=8YptyhKNMSz&_r=1"
 
@@ -252,7 +251,7 @@ export const sucursalesLocation:Sucursales[] = [
                 name: "Maryori",
                 lastName: "Lopez",
                 imgUrl: "https://firebasestorage.googleapis.com/v0/b/fir-f16bc.appspot.com/o/maryori.png?alt=media&token=907d7d38-723a-4229-9dad-ab5c91fcabd9",
-                phoneNumber: "98545494"
+                phoneNumber: "98621670"
 
             },
             {
@@ -265,7 +264,7 @@ export const sucursalesLocation:Sucursales[] = [
         ],
 
          links:<LinksSM> {
-            facebookUrl: "https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100086959634625%26mibextid%3DLQQJ4d&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId",
+            facebookUrl: "https://m.facebook.com/people/Gods-Blessing-Comayagua/100086959634625/",
             instagramUrl: "https://instagram.com/godsblessingcomayagua?igshid=MWI4MTIyMDE",
             tiktokUrl: "https://www.tiktok.com/@gods_blessing10?_t=8YptyhKNMSz&_r=1"
 

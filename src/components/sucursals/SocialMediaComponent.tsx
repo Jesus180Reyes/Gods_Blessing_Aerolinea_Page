@@ -11,8 +11,8 @@ export const SocialMediaComponent:FC<Props> = ({sucursal}) => {
       <p>Siguenos en nuestras redes sociales</p>
 
         <div className="icons">
-        <i onClick={() => window.location.href = `${sucursal.links.instagramUrl}`} className="fa-brands fa-whatsapp"></i>
-        <i onClick={() => window.location.href = `${sucursal.links.instagramUrl}`}className="fa-brands fa-facebook"></i>
+        <i onClick={() => window.location.href = `https://wa.me/+504${sucursal.phone_number}?text=Hola%20Quiero%20una%20cotizacion`} className="fa-brands fa-whatsapp"></i>
+        <i onClick={() => window.location.href = `${sucursal.links.facebookUrl}`}className="fa-brands fa-facebook"></i>
         <i onClick={() => window.location.href = `${sucursal.links.tiktokUrl}`}className="fa-brands fa-tiktok"></i>
         <i onClick={() => window.location.href = `${sucursal.links.instagramUrl}`}className="fa-brands fa-instagram"></i>
         </div>
