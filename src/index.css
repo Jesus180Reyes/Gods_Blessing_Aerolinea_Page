@@ -831,6 +831,14 @@ body {
     font-size: 2rem;
     text-align: center;
 }
+.feedback-container button {
+    background-color: #111;
+    color: #fff;
+    width: 10vw;
+    height: 5vh;
+    border-radius: 20px;
+    cursor: pointer;
+}
 
  @media (max-width:480px)  { 
     /* smartphones, Android phones, landscape iPhone */ 

@@ -12,6 +12,7 @@ export const FeedbackComponent = () => {
         <CardFeedback testimony={testimonies[Math.floor(Math.random() * testimonies.length)]}/>
         <CardFeedback testimony={testimonies[Math.floor(Math.random() * testimonies.length)]}/>
       </div>
+      <button className='' >Ver mas</button>
     </div>
     </>
   )
