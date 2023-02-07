@@ -28,7 +28,7 @@ export const HomePage = () => {
     <MenuComponent/>
     <div className="main-text animate__animated animate__fadeInUp animate__delay-1s" >
       <h1>NO IMPORTA A QUE PAIS QUIERAS IR</h1>
-      <h1>VIAJAR CON NOSOTROS ES <span>FACIL Y BARATO</span></h1>
+      <h1>VIAJAR CON NOSOTROS ES <span>FÁCIL Y BARATO</span></h1>
     </div>
     <CustomForm/>
     </div>

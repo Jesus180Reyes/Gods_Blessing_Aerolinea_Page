@@ -1,17 +1,16 @@
 import { FC } from 'react';
+import { testimony } from '../../interfaces/testimony';
 interface Props {
-    imgSrc: string,
-    description:string
-    username:string
+    testimony:testimony; 
 }
-export const CardFeedback:FC<Props> = ({imgSrc,username,description}) => {
+export const CardFeedback:FC<Props> = ({testimony}) => {
   return (
     <>
     <div className="card">
-        <img src={imgSrc}  />
-        <p>{description}</p>
+        <img src={testimony.imgUrl}  />
+        <p>{testimony.description}</p>
 
-    <span>{username}</span>
+      <span>{testimony.name}</span>
 
       </div>
     </>
