@@ -8,11 +8,11 @@ export const FeedbackComponent = () => {
       <h1>Testimonios</h1>
       <p>Estos son algunas resenas de nuestros clientes</p>
       <div className="cards">
-        <CardFeedback testimony={testimonies[Math.floor(Math.random() * testimonies.length)]} />
-        <CardFeedback testimony={testimonies[Math.floor(Math.random() * testimonies.length)]}/>
-        <CardFeedback testimony={testimonies[Math.floor(Math.random() * testimonies.length)]}/>
+        <CardFeedback testimony={testimonies[3]} />
+        <CardFeedback testimony={testimonies[1]}/>
+        <CardFeedback testimony={testimonies[7]}/>
       </div>
-      <button className='' >Ver mas</button>
+      <button><a href='/testimonios'>Ver mas</a></button>
     </div>
     </>
   )

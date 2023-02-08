@@ -137,6 +137,7 @@ body {
 
 .form-container {
     border-radius: 15px;
+    flex-wrap: wrap;
     margin: 2rem;
     display: flex;
     align-items: center;
@@ -324,15 +325,20 @@ body {
 
 .cards {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
 }
 
 .card-promotion {
-    width: 40%;
+    width: 30%;
+    height: 80vh;
     position: relative;
     border-radius: 20px;
     margin: 20px;
     background-color: #fff;
     white-space: nowrap;
+    text-align: center;
     text-overflow: ellipsis;
     overflow: hidden;
 }
@@ -351,6 +357,7 @@ body {
 }
 .card-promotion h2 {
     /* background-color: red; */
+    font-size: 2rem;
     width: 22vw;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -414,6 +421,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .feedback-container .card {
@@ -839,6 +847,17 @@ body {
     border-radius: 20px;
     cursor: pointer;
 }
+.feedback-container a {
+    text-decoration: none;
+    background-color: transparent;
+    color: #fff;
+    width: 10vw;
+    height: 5vh;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
 
  @media (max-width:480px)  { 
     /* smartphones, Android phones, landscape iPhone */ 
@@ -1056,6 +1075,9 @@ body {
     .mision-container {
         width: auto;
         margin-bottom: 10px;
+    }
+    .feedback-container button {
+        width: 30vw;
     }
    
  }

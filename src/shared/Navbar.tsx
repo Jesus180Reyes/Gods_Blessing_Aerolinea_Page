@@ -11,6 +11,8 @@ export const Navbar = () => {
         {/* <a href="/cosa-para-viajar">Cosa que necesitas para viajar</a> */}
         <a href="/blog">Blog</a>
         <a href="/sucursales">Sucursales</a>
+        <a href="/testimonios">Testimonios</a>
+        <a href="/promociones">Promociones</a>
         <a href="/cotizar">Cotizar Vuelo</a>
       </nav>
       </div>
