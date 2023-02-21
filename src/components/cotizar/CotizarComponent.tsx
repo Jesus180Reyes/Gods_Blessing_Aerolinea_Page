@@ -1,5 +1,5 @@
 import { customAlert } from '../../helpers/';
-import { useFormCotizacion } from '../../hooks/useFormCotizacion';
+import { useFormCotizacion } from '../../hooks/';
 import emailjs from '@emailjs/browser';
 export const CotizarComponent = () => {
   const { nameForm,dateAtComeBack,dateAtGo,emailForm,destinyForm,manyPersonsForm,numberForm,onInputDestinyChange,onInputNameChange,onInputDateAtComeBackChange,onInputEmailChange,onInputManyPersonsChange,onInputNumberChange,onInputDateAtGoChange,resetValuesForm} = useFormCotizacion();
@@ -12,26 +12,15 @@ export const CotizarComponent = () => {
     if(manyPersonsForm.length  <=0|| manyPersonsForm.length >=3) return customAlert("La cantidad de personas es obligatorio", "Debes llenar todos los espacios solicitados","error");
     if(numberForm.length  <= 1) return customAlert("El numero de telefono es obligatorio", "Debes llenar todos los espacios solicitados","error");
     resetValuesForm();
-    const message = {
+    emailjs.send(import.meta.env.VITE_SERVICE_ID,import.meta.env.VITE_TEMPLATE_ID,{
       nameForm,
       emailForm,
       destinyForm,
-      manyPersonsForm,
       numberForm,
+      manyPersonsForm,
       dateAtGo,
       dateAtComeBack,
-    }
-    emailjs.send(import.meta.env.VITE_SERVICE_ID,import.meta.env.VITE_TEMPLATE_ID,{
-      nameForm: nameForm,
-      emailForm: emailForm,
-      destinyForm: destinyForm,
-      numberForm: numberForm,
-      manyPersonsForm: manyPersonsForm,
-      dateAtGo: dateAtGo,
-      dateAtComeBack: dateAtComeBack,
-      }, import.meta.env.VITE_PUBLIC_KEY);
-
-    console.log(message);
+    }, import.meta.env.VITE_PUBLIC_KEY);
     customAlert("Cotizacion enviada!!","La Cotizacion fue enviada exitosamente, muy pronto nos comunicaremos contigo","success");
   }
   
