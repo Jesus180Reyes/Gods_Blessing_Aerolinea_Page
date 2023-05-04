@@ -8,9 +8,9 @@ export const FeedbackComponent = () => {
       <h1>Testimonios</h1>
       <p>Estos son algunas resenas de nuestros clientes</p>
       <div className="cards">
-        <CardFeedback testimony={testimonies[3]} />
-        <CardFeedback testimony={testimonies[1]}/>
-        <CardFeedback testimony={testimonies[7]}/>
+        <CardFeedback testimony={testimonies[1]} />
+        <CardFeedback testimony={testimonies[10]}/>
+        <CardFeedback testimony={testimonies[14]}/>
       </div>
       <button><a href='/testimonios'>Ver mas</a></button>
     </div>

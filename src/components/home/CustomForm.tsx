@@ -2,7 +2,6 @@ import { customAlert } from '../../helpers/custom_alert';
 import emailjs from '@emailjs/browser';
 import { useFormHome } from '../../hooks/';
 import { useState } from 'react';
-import { LoadingPage } from '../../shared/LoadingPage';
 export const CustomForm = () => {
   const {phoneNumber,destiny,dateAtComeback,dateAtGo,resetInputsForm, onInputDateAtComebackFormChange,onInputDateAtGoFormChange,onInputDestinyFormChange,onInputNumberFormChange} = useFormHome();
   const [isLoading, setIsLoading] = useState<boolean>();
