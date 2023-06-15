@@ -13,7 +13,7 @@ export const HomePage = () => {
   useEffect(() =>{
     setTimeout(() => {
       setIsLoading(false);  
-    }, 1000);
+    }, 500);
   }, [isLoading]);
 
   useEffect(() => {

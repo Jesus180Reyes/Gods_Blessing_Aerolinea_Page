@@ -30,7 +30,6 @@ export const OurUsPage = () => {
       <ValoresCardComponent icon={"fa-sharp fa-solid fa-shield-halved"} title="Seguridad" description="Gestionamos y protegemos la información de nuestros clientes, empleados, y proveedores, verificando que su uso siempre se realice de manera segura."/>
     </div>
       </div>
-      {/* TODO: //* Pedir imagen en conjunto para foto de Row */}
     <RowArticleFeat isRowReverse={true} ArticleComponent={AboutUsRowComponent} imgSrc={"https://firebasestorage.googleapis.com/v0/b/fir-f16bc.appspot.com/o/sucursal-danli.jpg?alt=media&token=15e7af50-59aa-4826-9099-3ceb99aa64f4"}/>
     <RowArticleFeat isRowReverse={false} ArticleComponent={AboutVision} imgSrc={"https://firebasestorage.googleapis.com/v0/b/fir-f16bc.appspot.com/o/sucursal.jpg?alt=media&token=9c7c71ee-7c37-412b-8258-8932859d6da3"}/>
     <FeedbackComponent/>

@@ -7,7 +7,7 @@ export const CardFeedback:FC<Props> = ({testimony}) => {
   return (
     <>
     <div className="card">
-        <img src={testimony.imgUrl}  />
+        <img src={testimony.imgUrl}  alt='Testimonios'/>
         <p>{testimony.description}</p>
 
       <span>{testimony.name}</span>

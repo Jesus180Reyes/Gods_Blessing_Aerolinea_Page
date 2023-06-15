@@ -9,7 +9,7 @@ export const RowArticleFeat:FC<Props> = ({isRowReverse = false, ArticleComponent
   return (
     <>
      <div className="row-content" style={isRowReverse ?  {flexDirection: "row-reverse"}: {flexDirection: "row"}}>
-      <img data-aos="fade-right" src={imgSrc}  />
+      <img data-aos="fade-right" src={imgSrc}  alt="Agencia de Viajes, God's Blessing"/>
       <div data-aos="fade-left" className="col-content ">
         <ArticleComponent/>
       </div>

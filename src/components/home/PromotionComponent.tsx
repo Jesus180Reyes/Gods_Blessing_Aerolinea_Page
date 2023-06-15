@@ -7,7 +7,7 @@ export const PromotionComponent = () => {
       <div className="cards">
 
       <div className="card-promotion">
-        <img src={promotions[0].imgSrc}  />
+        <img alt={promotions[0].title} src={promotions[0].imgSrc}  />
         <div className="gradient"></div>
         <h2>{promotions[0].title}</h2>
         <h3>Desde L. {promotions[0].price}</h3>
@@ -16,7 +16,7 @@ export const PromotionComponent = () => {
 
       </div>
       <div className="card-promotion">
-        <img src={promotions[1].imgSrc}  />
+        <img  alt={promotions[1].title} src={promotions[1].imgSrc}  />
         <div className="gradient"></div>
         <h2>{promotions[1].title}</h2>
         <h3>Desde L. {promotions[1].price}</h3>
@@ -25,7 +25,7 @@ export const PromotionComponent = () => {
 
       </div>
       <div className="card-promotion">
-        <img src= {promotions[2].imgSrc} />
+        <img alt={promotions[2].title}  src= {promotions[2].imgSrc} />
         <div className="gradient"></div>
         <h2>{promotions[2].title}</h2>
         <h3>Desde L. {promotions[2].price}</h3>

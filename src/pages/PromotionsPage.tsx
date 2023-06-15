@@ -24,7 +24,7 @@ export const PromotionsPage = () => {
             {
                 promotions.map((promotion,i) => {
                     return <div className="card-promotion" key={i}>
-                    <img src={promotion.imgSrc}  />
+                    <img src={promotion.imgSrc}  alt={promotion.title}/>
                     <div className="gradient"></div>
                     <h2>{promotion.title}</h2>
                     <h3>Desde L. {promotion.price}</h3>
