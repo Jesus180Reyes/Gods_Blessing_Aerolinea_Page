@@ -1,5 +1,4 @@
 import { customAlert } from '../../helpers/custom_alert';
-import emailjs from '@emailjs/browser';
 import { useFormHome } from '../../hooks/';
 import { useState } from 'react';
 export const CustomForm = () => {
@@ -19,9 +18,9 @@ export const CustomForm = () => {
       dateAtGo,
       dateAtComeback,
     }
-    await emailjs.send(import.meta.env.VITE_SERVICE_ID,import.meta.env.VITE_TEMPLATE_ID_HOME,message, import.meta.env.VITE_PUBLIC_KEY);
     resetInputsForm();
     customAlert("Cotizacion enviada!!","La Cotizacion fue enviada exitosamente, muy pronto nos comunicaremos contigo","success");
+    location.href = `https://api.whatsapp.com/send?phone=${import.meta.env.VITE_PHONE_NUMBER}&text=*Nueva%20cotizaci%C3%B3n%20de%20viajes%3A*%0ANumero%20de%20tel%C3%A9fono%3A%20${message.phoneNumber}%0ADestino%3A%20${message.destiny}%0AFecha%20de%20ida%3A%20${message.dateAtGo}%0AFecha%20de%20vuelta:%20${message.dateAtComeback}%0A`;
     setIsLoading(false);
   }
   return (
